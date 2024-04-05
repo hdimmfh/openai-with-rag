@@ -26,4 +26,4 @@ def agent(human_input, memory):
                                    )
     response = agent_chain.run(human_input)
 
-    return [str(response)]
+    return str(response)

@@ -24,7 +24,7 @@ PROMPT = PromptTemplate(
     template=prompt_template, input_variables=["context", "question"]
 )
 
-chain_type_kwargs_for_qa = {"util": PROMPT}
+chain_type_kwargs_for_qa = {"prompt": PROMPT}
 
 faiss = RetrievalQA.from_chain_type(
     llm=ChatOpenAI(model_name="gpt-3.5-turbo-16k", temperature=0.8, max_tokens=10000,

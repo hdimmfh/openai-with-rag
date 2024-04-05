@@ -1,0 +1,20 @@
+1. FAISS DB 제작을 위한 sample text file 입니다.
+chunk 단위로 끊어지기 때문에 실제 사용 시에는
+충분히 긴 text file 또는 csv file을 사용해야합니다.
+
+2. FAISS DB 제작을 위한 sample text file 입니다.
+chunk 단위로 끊어지기 때문에 실제 사용 시에는
+충분히 긴 text file 또는 csv file을 사용해야합니다.
+
+3. FAISS DB 제작을 위한 sample text file 입니다.
+chunk 단위로 끊어지기 때문에 실제 사용 시에는
+충분히 긴 text file 또는 csv file을 사용해야합니다.
+
+4. FAISS DB 제작을 위한 sample text file 입니다.
+chunk 단위로 끊어지기 때문에 실제 사용 시에는
+충분히 긴 text file 또는 csv file을 사용해야합니다.
+
+5. FAISS DB 제작을 위한 sample text file 입니다.
+chunk 단위로 끊어지기 때문에 실제 사용 시에는
+충분히 긴 text file 또는 csv file을 사용해야합니다.
+

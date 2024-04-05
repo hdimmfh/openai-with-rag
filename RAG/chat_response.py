@@ -11,9 +11,9 @@ tools = [
         description="Tool의 용도 1 detail"
     ),
     Tool(
-        name="Tool의 용도 3",
+        name="Tool의 용도 2",
         func=serp.serp.run,
-        description="Tool의 용도 3 detail"
+        description="Tool의 용도 2 detail"
     )
 ]
 

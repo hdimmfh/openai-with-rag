@@ -1,13 +1,20 @@
 ## 👨‍🍳 프로젝트 개요
 
-### **🍔 구성**  
+### **🍔 목적**  
 본 프로젝트는 langchain 을 활용한 챗봇 개발 프로젝트 입니다.
-1. 벡터 DB인 faiss 와 구글 검색엔진 결과 데이터 기반 serp를 langchain에 접목하는>
-2. RAG 기술을 적극 활용하여 기존 챗봇의 한계를 뛰어넘습니다.
-3. 해당 프로젝트를 통해 </br> 사용자의 대화를 기억하고, 필요시 구글에 검색(serp)하거나 vector db(faiss)를 참고하는 챗봇을 실행할 수 있습니다.
+1. **faiss 벡터DB**와 **serp의 검색엔진**를 langchain에 접목합니다.
+2. RAG를 활용하여 기존 챗봇의 **기억손실**, **최신정보 반영불가**의 한계를 극복합니다.
+3. 사용자의 대화를 **기억**하고, 필요시 구글에 `검색(serp)`하거나 `벡터DB(faiss)`를 참고하는 챗봇을 구현합니다.
 
 ### **🍟 개발 기간**  
-- `2024.04.04`: 기본 코드 구성  
+- `2024.04.04`: 기본 코드 구성
+
+### **🍖 구성**  
+<kbd>
+<p align="center">
+  <img src="https://private-user-images.githubusercontent.com/74033655/361417236-30ff5e5c-7437-4f11-afd7-fe8bc400334f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjQ2NzIxODIsIm5iZiI6MTcyNDY3MTg4MiwicGF0aCI6Ii83NDAzMzY1NS8zNjE0MTcyMzYtMzBmZjVlNWMtNzQzNy00ZjExLWFmZDctZmU4YmM0MDAzMzRmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MjYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODI2VDExMzEyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI1ZGY3N2ZkNzc2YTdjYWQyM2QzNTY2MTg4NWM3MWMwZWM5ZDQ1MmEwMzRhMTZiOWQ5ZTgxNjdjODg0N2QyYTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.O8dX6L8ja-0tYnfcn9hT9jrX8QUsYVo6MhtP4R2BJ2A" width="80%"/>
+</p>
+</kbd>
 
 ### **🍕 사용법**  
 1. 필요한 라이브러리를 설치합니다. (`requirements.txt`, `build_faiss_db.ipynb` 참고)
@@ -33,3 +40,5 @@ ConversationBufferWindowMemory 클래스를 사용하여 메모리를 구성합�
 6. **/build_faiss_db.ipynb** </br>
 sample.txt로 faiss db를 만듭니다. 사용되는 라이브러리 버전이 다르므로 해당 부분에 유의합니다.
 이후 다시 run.py 를 실행할 일이 있다면 라이브러리 버전을 재설정 한 이후 실행해야 오류 없이 진행할 수 있습니다.
+
+
